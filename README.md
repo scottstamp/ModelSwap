@@ -5,7 +5,7 @@ Converts talking packets to shouting packets and the otherway around using [GoEa
 - Converts Outgoing CHAT packet to SHOUT
 - Converts Outgoing SHOUT packet to CHAT
 - Dance from chat using `/dance`
-- Wave by saying o/ (anywhere in the text)
+- Wave by saying `o/` (anywhere in the text)
 - Hold shift to talk
 
 ## Known Issues

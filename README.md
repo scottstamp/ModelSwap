@@ -1,4 +1,5 @@
 # TalkToShout
+**Made for Habbo: Origins ONLY**
 Converts talking packets to shouting packets and the otherway around using [GoEarth](https://github.com/xabbo/goearth)
 
 ## Features

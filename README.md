@@ -8,10 +8,14 @@ Converts talking packets to shouting packets and the otherway around using [GoEa
 - Wave by saying `o/` (anywhere in the text)
 - Hold shift to talk
 
-## Known Issues
+### Known Issues
 - none
-## why?
+
+### why?
 Switching rooms makes you always select Say instead of Shout by default and I want to switch the functionality of these 2 so that talk will be shout and shout will be talk, 
+
+### Buildcommand used:
+`go build -ldflags -H=windowsgui`
 
 ### Credits:
 - me for this

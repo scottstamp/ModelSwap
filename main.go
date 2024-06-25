@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 
 	g "xabbo.b7c.io/goearth"
@@ -46,7 +45,6 @@ func handleTalk(e *g.InterceptArgs) {
 }
 
 func handleEmotes(msg string) {
-	fmt.Println(msg)
 	if msg == "/dance" {
 		emoteBlock = true
 		ext.Send(outDance)

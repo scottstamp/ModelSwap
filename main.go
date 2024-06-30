@@ -2,9 +2,10 @@ package main
 
 import (
 	"strings"
+	// "fmt"
 
 	g "xabbo.b7c.io/goearth"
-	"xabbo.b7c.io/goearth/shockwave/out"
+	// "xabbo.b7c.io/goearth/shockwave/out"
 	"xabbo.b7c.io/goearth/shockwave/in"
 )
 
@@ -25,7 +26,7 @@ func main() {
 
 func handleRoomReady(e *g.InterceptArgs) {
 	roomInfo := e.Packet.ReadString()
-	modifiedRoomInfo := strings.replace(roomInfo, "model_z", "model_f", 1)
+	modifiedRoomInfo := strings.Replace(roomInfo, "model_z", "model_f", 1)
 	e.Block()
 	ext.Send(in.ROOM_READY, modifiedRoomInfo)
 }
